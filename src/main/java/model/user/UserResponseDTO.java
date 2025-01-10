@@ -4,15 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
-@Setter
 @Builder
-public class User {
+public class UserResponseDTO {
 	private String id;
-	private String pw;
 	private UserRole role;
+
+	@Override
+	public String toString() {
+		String role = this.role.name();
+		return String.format("아이디 = '%s', 권한 = '%s'", id, role);
+	}
 }
