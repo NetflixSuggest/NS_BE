@@ -106,4 +106,14 @@ public class ProgramController {
 			return new ArrayList<>(); // 빈 리스트 반환
 		}
 	}
+	
+	// 장르로 프로그램 추천
+		public static ArrayList<ProgramDTO> getRecommendProgramByGenre(String genre) {
+			try {
+				return instance.getRecommendProgrambyGenre(genre);
+			} catch (Exception e) {
+				e.printStackTrace();
+				return new ArrayList<>(); // 빈 리스트 반환
+			}
+		}
 }

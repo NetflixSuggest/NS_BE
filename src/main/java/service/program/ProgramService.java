@@ -57,4 +57,8 @@ public class ProgramService {
 	public ArrayList<ProgramDTO> getAllProgram() throws Exception {
 		return ProgramDAO.getAllProgram();
 	}
+	
+	public ArrayList<ProgramDTO> getRecommendProgrambyGenre(String genre) throws Exception {
+        return ProgramDAO.getRecommendProgrambyGenre(genre);
+    }
 }

@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 import main.java.model.program.dto.ProgramDTO;
 import main.java.model.util.DBUtil;
@@ -247,6 +248,41 @@ public class ProgramDAO {
 			} finally {
 				DBUtil.close(con, pstmt, rs);
 			}
+			return list;
+		}
+
+		public static ArrayList<ProgramDTO> getRecommendProgrambyGenre(String genre) throws Exception {
+			Connection con = null;
+			PreparedStatement pstmt = null;
+			ResultSet rs = null;
+			ArrayList<ProgramDTO> list = new ArrayList<>();
+			ArrayList<ProgramDTO> recommendList = new ArrayList<>();
+			
+			try {
+				con = DBUtil.getConnection();
+				pstmt = con.prepareStatement("select * from netflix_movies where listed_in like '%' ? '%'");
+				pstmt.setString(1, genre);
+				rs = pstmt.executeQuery();
+				
+				while(rs.next()) {
+					list.add(ProgramDTO.builder().showId(rs.getString(1)).types(rs.getString(2)).title(rs.getString(3))
+							.director(rs.getString(4)).country(rs.getString(5)).releaseYear(rs.getInt(6))
+							.duration(rs.getInt(7)).listedIn(rs.getString(8)).description(rs.getString(9)).build());
+				}
+			} finally {
+				DBUtil.close(con, pstmt, rs);
+			}
+			
+		    HashSet<Integer> selectedIndex = new HashSet<>();
+		    int count = list.size();
+		   
+		    while (recommendList.size() < 3 && selectedIndex.size() < count) {
+		        int rnd = (int) (Math.random() * count);
+		        if (!selectedIndex.contains(rnd)) {
+		            selectedIndex.add(rnd);
+		            recommendList.add(list.get(rnd));
+		        }
+		    }
 			return list;
 		}
 }
