@@ -1,0 +1,26 @@
+model
+- user
+	- user의 CRUD (가입, 탈퇴)를 담당합니다
+	- 특정 방식 (정해진 id 값)으로 가입을 하면 어드민 권한이 주어집니다.
+- program
+	- program의 CRUD (등록, 추천, 삭제, 수정)을 담당합니다
+	- 어드민 권한을 가진 유저만 C, U, D 기능을 사용할 수 있습니다.
+	- 일반 유저는 R 기능만 사용 가능합니다.
+	
+controller
+	- user, program 두 개로 나눕니다.
+	- user 관련 api (기능) 들은 controller.user 내부에 작성합니다.
+	- program 관련 api (기능) 들은 controller.program 내부에 작성합니다.
+
+view
+	- StartView, FailView, EndView 세 가지로 나눕니다.
+	- StartView
+		- 시작 화면을 담당합니다.
+		- 로그인, 회원가입, 종료 등
+	- FailView
+		- 오류 화면을 담당합니다.
+	- EndView
+		- 작업 성공 뒤에 나오는 화면을 담당합니다.
+
+util
+	- 개발 프로그램 사용에 필요한 각종 기능들을 담아둡니다.
