@@ -1,6 +1,7 @@
 package main.java.model.user;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class UserService {
 	
@@ -19,16 +20,29 @@ public class UserService {
 	}
 	
 	// id, pw 검증
-	public static boolean checkUser(UserLoginDTO user) throws SQLException {
+	public static UserResponseDTO checkUser(UserLoginDTO user) throws SQLException {
 		return UserDAO.checkUser(user);
 	}
 	
+	//id에 맞는 유저 검색
+	public static UserResponseDTO getUserById(String userId) {
+		return UserDAO.getUserById(userId);
+	}
+	
 	//Admin pw 검증
-	public static String checkAdminByPw(String userPw) {
+	public static UserRole checkAdminByPw(String userPw) {
 		if (userPw.equals("adminPw123456")) {
-			return "ADMIN";
+			return UserRole.ADMIN;
 		}
-		return "USER";
+		return UserRole.USER;
+	}
+	
+	public static ArrayList<UserResponseDTO> getUsers() throws SQLException{
+		return UserDAO.getUsers();
+	}
+	
+	public static boolean deleteUser(String userId) {
+		return UserDAO.deleteUser(userId);
 	}
 
 }
