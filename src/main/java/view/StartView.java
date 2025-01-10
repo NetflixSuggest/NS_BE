@@ -13,6 +13,6 @@ import main.java.model.util.DBUtil;
 
 public class StartView {
 	public static void main(String[] args) {
-		
+
 	}
 }
