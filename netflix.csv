@@ -1,0 +1,150 @@
+show_id,types,title,director,country,release_year,duration,listed_in,description
+s1,Movie,딕 존슨이 죽었다,Kirsten Johnson,United States,2020,90,Documentaries,"그녀의 아버지가 임종을 앞두고 있는 가운데, 영화감독 커스틴 존슨은 두 사람 모두 피할 수 없는 상황에 직면하도록 돕기 위해 창의적이고 코믹한 방법으로 아버지의 죽음을 준비합니다."
+s7,Movie,마이 리틀 포니: 새로운 세대,"Robert Cullen, Jos? Luis Ucha",,2021,91,Children & Family Movies,"이퀘스트리아는 분열되어 있습니다. 하지만 눈이 밝은 영웅은 어스 포니, 페가시, 유니콘이 친구가 되어야 한다고 믿습니다. 그리고 진심으로 그녀는 그것을 증명하기로 결심했습니다."
+s8,Movie,산코파,Haile Gerima,"United States, Ghana, Burkina Faso, United Kingdom, Germany, Ethiopia",1993,125,"Dramas, Independent Movies, International Movies",가나의 사진 촬영에서 미국 모델은 시간을 거슬러 올라가 농장의 노예가 되어 조상의 과거의 고통을 목격합니다.
+s10,Movie,스탈링,Theodore Melfi,United States,2021,104,"Comedies, Dramas",상실 이후 삶에 적응하는 한 여성이 자신의 정원을 점령한 거침없는 새와 사투를 벌인다. 그리고 앞으로 나아갈 길을 찾기 위해 애쓰는 남편.
+s13,Movie,제 스위스 칼,Christian Schwochow,"Germany, Czech Republic",2021,127,"Dramas, International Movies","테러리스트의 폭탄 테러로 가족 대부분이 살해된 후, 한 젊은 여성이 자신도 모르게 그들을 죽인 바로 그 집단에 합류하도록 유혹됩니다."
+s14,Movie,투명소녀의 고백,Bruno Garotti,,2021,91,"Children & Family Movies, Comedies",영리하지만 사회적으로 어색한 Tet은 언제? 새 학교에 입학하면 그녀는 적응하기 위해 무엇이든 할 것입니다. 그러나 그녀의 반 친구들 사이에 있는 여왕벌은 다른 생각을 가지고 있습니다.
+s17,Movie,유럽에서 가장 위험한 남자: 스페인의 오토 슈코르체니,"Pedro de Echave Garc?a, Pablo Azor?n Williams",,2020,67,"Documentaries, International Movies",기밀 해제된 문서에는 히틀러의 가까운 동맹자이자 스페인으로 탈출하여 세계 대통령의 고문이 된 오토 슈코르체니(Otto Skorzeny)의 2차 세계대전 이후 생활이 나와 있습니다.
+s19,Movie,강요,Adam Salky,,2021,94,Thrillers,부부의 새 꿈의 집에 치명적인 가정 침입이 발생한 후 트라우마에 빠진 아내는 답을 찾습니다. 진짜 위험이 이제 막 시작되었다는 것을 알게 됩니다.
+s23,Movie,아바이 샨무기,K.S. Ravikumar,,1996,161,"Comedies, International Movies",새로 이혼하고 딸과의 면회권을 거부당한 아빠는 딸과 함께 시간을 보내기 위해 백발의 유모로 변장한다.
+s24,Movie,가다! 가다! 코리 카슨: Chrissy가 운전대를 잡다,"Alex Woo, Stanley Moore",,2021,61,Children & Family Movies,"아케이드 게임부터 썰매와 딸꾹질 치료까지, 코리 카슨의 호기심 많은 여동생 Chrissy는 혼자서 재미와 모험을 즐기며 온 동네를 돌아다닙니다!"
+s25,Movie,청바지,S. Shankar,India,1998,166,"Comedies, International Movies, Romantic Movies","사랑하는 남자의 아버지가 쌍둥이 아들들에게 쌍둥이 자매와 결혼하라고 고집하자, 여자는 다소 설득력이 있을 수도 있는 또 다른 자아를 만들어낸다."
+s27,Movie,민사라 카나부,Rajiv Menon,,1997,147,"Comedies, International Movies, Music & Musicals",수녀가 되기 위해 공부하는 여자에게 남자가 반하면서 얽힌 삼각관계가 이어진다. 그리고 그녀는 그가 그녀를 쫓는 것을 돕기 위해 모집한 친구에게 반하게 됩니다.
+s28,Movie,어른들,Dennis Dugan,United States,2010,103,Comedies,사랑하는 중학교 농구 코치를 잃은 슬픔에 빠진 중년 친구 다섯 명이 호수의 집에서 재회하고 어린 시절의 기쁨을 재발견합니다.
+s29,Movie,어두운 하늘,Scott Stewart,United States,2013,97,"Horror Movies, Sci-Fi & Fantasy",한 가족의 목가적인 교외 생활은 외계 세력이 집에 침입하고 다른 사람들에게 치명적인 위협을 납득시키려고 애쓰면서 산산조각이 납니다.
+s30,Movie,편집병,Robert Luketic,"United States, India, France",2013,106,Thrillers,회사 CEO의 협박을 받은 하급 직원은 상사의 라이벌이자 전 멘토를 감시해야 한다는 사실을 깨닫게 된다.
+s31,Movie,안카히 카하니야,"Ashwiny Iyer Tiwari, Abhishek Chaubey, Saket Chaudhary",,2021,111,"Dramas, Independent Movies, International Movies","대도시 생활이 주변을 맴돌면서 외로운 영혼들은 사랑, 상실, 그리움에 관한 세 가지 이야기에서 연결과 동료애의 놀라운 원천을 발견합니다."
+s36,Movie,산을 옮기는 아버지,Daniel Sandu,,2021,110,"Dramas, International Movies, Thrillers",눈 내리는 산행 중 아들이 실종되자 은퇴한 정보요원은 무슨 짓이든 멈춘다. 그리고 모든 것을 위험에 빠뜨리나요? 그를 찾기 위해.
+s37,Movie,요새,C?dric Jimenez,,2021,105,"Action & Adventure, Dramas, International Movies",사소한 일에 지친 세 명의 마르세유 경찰은 주요 마약 네트워크를 체포할 기회를 얻습니다. 그러나 주요 정보원이 큰 질문을 하면 경계가 흐려집니다.
+s39,Movie,드래곤의 탄생,George Nolfi,"China, Canada, United States",2017,96,"Action & Adventure, Dramas","실제 사건을 바탕으로 한 이 영화에서는 젊은 이소룡이 외부인을 가르쳐 쿵푸 전통주의자들을 화나게 하고, 소림사 스승과의 대결로 이어진다."
+s42,Movie,입 부분,Steven Spielberg,United States,1975,124,"Action & Adventure, Classic Movies, Dramas","탐욕스러운 백상아리가 아미티 섬을 위협하자, 경찰서장, 해양학자, 반백의 상어 사냥꾼이 이 야수를 파괴하려고 합니다."
+s43,Movie,조스 2,Jeannot Szwarc,United States,1978,116,"Dramas, Horror Movies, Thrillers","마지막 치명적인 상어 공격이 있은 지 4년 후, 마틴 브로디 경찰서장은 또 다른 살인자 백상아리로부터 아미티 섬을 보호하기 위해 싸웁니다."
+s44,Movie,조스 3,Joe Alves,United States,1983,98,"Action & Adventure, Horror Movies, Thrillers",해양테마파크 직원들은 어린 백상아리를 포획하려다가 그 어미가 우리에 침입해 피를 흘리고 있다는 사실을 알게 된다.
+s45,Movie,죠스: 더 리벤지,Joseph Sargent,United States,1987,91,"Action & Adventure, Horror Movies, Thrillers",또 다른 치명적인 상어 공격 이후 Ellen Brody는 Amity Island를 충분히 즐기고 카리브해로 이동합니다. 하지만 백상아리가 그녀를 따라갑니다.
+s46,Movie,나의 영웅은 카우보이였다,Tyler Greco,,2021,23,Documentaries,로빈 윌트셔의 고통스러운 어린 시절은 서부인에 의해 구출되었습니다. 이제 그는 자신이 사랑하는 말들을 대형 스크린에서 훈련시키며 꿈의 개척지에 살고 있습니다.
+s47,Movie,안전한 집,Daniel Espinosa,"South Africa, United States, Japan",2012,115,Action & Adventure,젊은 CIA 요원 맷 웨스턴은 공격을 받고 있는 기관의 은신처에서 위험한 범죄자를 구출해 안전한 장소로 데려가야 합니다.
+s49,Movie,훈련일,Antoine Fuqua,United States,2001,122,"Dramas, Thrillers",어느 날 베테랑 LAPD 마약 담당관에게 자신의 실력을 증명해야 하는 신인 경찰이 그의 멘토의 의심스러운 정의 브랜드에 대한 단기 집중 교육을 받습니다.
+s52,Movie,이누야샤 극장판 2: 거울 너머의 성,Toshiya Shinohara,Japan,2002,99,"Action & Adventure, Anime Features, International Movies",최대의 적을 물리친 듯 이누야샤와 친구들은 일상으로 돌아간다. 그러나 평화는 곧 새로운 적이 등장하면서 깨집니다.
+s53,Movie,극장판 이누야샤 3: 명예로운 통치자의 검,Toshiya Shinohara,Japan,2003,99,"Action & Adventure, Anime Features, International Movies",대견마(大犬魔)는 그의 두 아들에게 각각 세 개의 송곳니 검 중 하나를 물려주었습니다. 이제 세 번째 검의 사악한 힘이 깨어났습니다.
+s54,Movie,극장판 이누야샤 4: 신비한 섬의 불,Toshiya Shinohara,Japan,2004,88,"Action & Adventure, Anime Features, International Movies","자신의 백성을 돕기 위해 호라이 섬에서 탈출한 젊은 반요괴 아이 아이는 잠재적인 구원자 이누야샤, 셋쇼마루, 키쿄와 함께 돌아옵니다."
+s55,Movie,극장판 이누야샤: 시대를 초월한 애정,Toshiya Shinohara,Japan,2001,100,"Action & Adventure, Anime Features, International Movies",강력한 악마가 200년 동안 봉인되어 있었습니다. 그러나 악마의 아들이 깨어나자 세계의 운명은 위기에 처하게 된다.
+s57,Movie,극장판 나루토 질풍전: 피의 감옥,Masahiko Murata,Japan,2011,102,"Action & Adventure, Anime Features, International Movies",4대 라이카게 공격 혐의로 누명을 쓴 닌자 나루토는 뚫을 수 없는 호즈키 성에 갇히고 그의 힘은 봉인됩니다.
+s58,Movie,극장판 나루토 질풍전: 인연,Hajime Kamegaki,Japan,2008,93,"Action & Adventure, Anime Features, International Movies","이상한 닌자들이 고노하가쿠레 마을을 매복했을 때, 행성을 구하는 것은 청소년 닌자 나루토와 오랫동안 실종된 그의 친구 사스케에게 달려 있습니다."
+s59,Movie,극장판 나루토 질풍전: 불의 의지,Masahiko Murata,Japan,2009,96,"Action & Adventure, Anime Features, International Movies",닌자 마을 5곳 중 4곳이 파괴되자 살아남은 마을의 리더는 진짜 범인을 찾아 자신의 땅을 지키려고 노력합니다.
+s60,Movie,나루토 질풍전: 영화,Hajime Kamegaki,Japan,2007,95,"Action & Adventure, Anime Features, International Movies",악마로부터 여사제를 보호하는 임무를 맡은 청소년 닌자 우즈마키 나루토의 모험은 계속됩니다. 하지만 그렇게 하려면 그는 죽어야 합니다.
+s61,Movie,나루토 질풍전 극장판 잃어버린 탑,Masahiko Murata,Japan,2010,85,"Action & Adventure, Anime Features, International Movies","실종된 닌을 되찾기 위해 나루토가 파견되자, 악당은 나루토를 20년 전의 과거로 보내 아버지와 연합하여 악에 맞서 싸우게 합니다."
+s62,Movie,나루토 극장판 2: 겔렐의 돌의 전설,Hirotsugu Kawasaki,Japan,2005,97,"Action & Adventure, Anime Features, International Movies","실종된 애완동물을 되찾기 위한 임무를 수행하던 중, 나루토와 두 동료 닌자는 수수께끼의 테무진이 이끄는 잔혹한 기사들의 습격을 받습니다."
+s63,Movie,나루토 극장판 3: 초승달 왕국의 수호자,Toshiyuki Tsuru,Japan,2006,95,"Action & Adventure, Anime Features, International Movies","활기 넘치는 닌자 나루토는 친구인 사쿠라, 카카시와 팀을 이루어 미치루 왕자와 그의 아들 히카루를 초승달 왕국으로 안내합니다."
+s64,Movie,극장판 나루토: 눈의 나라 닌자 클래시,Tensai Okamura,Japan,2004,83,"Action & Adventure, Anime Features, International Movies","나루토, 사스케, 사쿠라는 다음 영화를 찍으면서 여배우가 다치지 않도록 보호해야 한다는 사실을 알게 되지만, 알고 보니 그녀는 공주였다."
+s65,Movie,나이트북,David Yarovesky,,2021,103,Children & Family Movies,무서운 이야기 팬인 알렉스는 매일 밤 등골이 오싹해지는 이야기를 해야 할까요? 아니면 사악한 마녀의 마법 아파트에 새 친구와 함께 영원히 갇힐 수도 있습니다.
+s69,Movie,슈마허,"Hanns-Bruno Kammert?ns, Vanessa N?cker, Michael Wech",,2021,113,"Documentaries, International Movies, Sports Movies",독점 인터뷰와 아카이브 영상을 통해 이 다큐멘터리는 포뮬러 1 7회 챔피언 미하엘 슈마허의 친밀한 초상화를 추적합니다.
+s72,Movie,StoryBots 우주 모험,David A. Vargas,,2021,13,Children & Family Movies,StoryBots와 역사적인 Inspiration4 임무의 우주 여행자와 함께 우주에 대한 아이들의 질문에 대한 답을 찾으세요.
+s74,Movie,소년의 왕,Kemi Adetiba,Nigeria,2018,182,"Dramas, International Movies",강력한 사업가의 정치적 야망이 그녀의 지하 세계 연결로 인해 위협을 받으면 그에 따른 권력 투쟁으로 인해 그녀는 모든 것을 잃게 될 수 있습니다.
+s76,Movie,당신 대 야생: 아웃 콜드,Ben Simms,,2021,106,Children & Family Movies,"비행기 추락 사고로 인해 Bear는 기억상실증에 걸렸고, Bear는 실종된 조종사를 구하고 이 위험한 대화형 모험에서 살아남을 수 있는 선택을 해야 합니다."
+s78,Movie,리틀 싱햄 - 블랙 섀도우,Prakash Satam,,2021,48,"Children & Family Movies, Comedies",꼬마 경찰 리틀 싱햄은 악마 카알의 새로운 사악한 계획을 막으려다 초능력을 모두 잃었습니다! 그의 내면의 힘이 적을 물리치는 데 도움이 될 수 있을까요?
+s79,Movie,투글라크 더르바르,Delhiprasad Deenadayalan,,2020,145,"Comedies, Dramas, International Movies",신예 정치인이 순위를 높이려는 사악한 계획을 가지고 있습니까? 예상치 못한 새로운 존재가 그의 모든 비뚤어진 움직임을 방해하기 시작할 때까지.
+s80,Movie,투글라크 더르바르어(텔루구어),Delhiprasad Deenadayalan,,2021,145,"Comedies, Dramas, International Movies",신예 정치인이 순위를 높이려는 사악한 계획을 가지고 있습니까? 예상치 못한 새로운 존재가 그의 모든 비뚤어진 움직임을 방해하기 시작할 때까지.
+s81,Movie,실버 드래곤 파이어드레이크,Tomer Eshed,,2021,93,Children & Family Movies,자신의 집이 인간들에 의해 위협받자 어린 용은 용들이 평화롭게 살며 자유롭게 날 수 있는 신화 속의 낙원을 찾기 위해 용기를 냅니다.
+s82,Movie,케이트,Cedric Nicolas-Troyan,United States,2021,106,Action & Adventure,"도쿄에서 일하는 무자비한 암살자는 마지막 직장에서 치명적인 독약을 떨어뜨렸고, 24시간도 채 안 되어 누가 명중을 지시했는지 알아내고 정확한 복수를 해야 합니다."
+s85,Movie,오모 게토: 사가,"JJC Skillz, Funke Akindele",Nigeria,2020,147,"Action & Adventure, Comedies, Dramas","쌍둥이는 착한 여성 갱스터로 재회하고 그녀의 불안한 부자 자매는 가족, 범죄, 경찰 및 그에 따른 모든 문제를 떠맡게 됩니다."
+s87,Movie,먹이,Thomas Sieben,,2021,87,"International Movies, Thrillers",야생으로의 하이킹 여행은 미스터리한 총격범으로부터 도망치는 다섯 친구의 생존을 위한 절박한 노력으로 변합니다.
+s89,Movie,블러드 브라더스: 말콤 X & 무하마드 알리,Marcus Clarke,,2021,96,"Documentaries, Sports Movies","우연한 만남부터 비극적인 파국까지, 말콤 X와 무하마드 알리의 특별한 유대감은 불신과 변화하는 이상의 무게로 인해 깨집니다."
+s91,Movie,파라다이스 힐스,Alice Waddington,"Spain, United States",2019,95,"Sci-Fi & Fantasy, Thrillers",Uma는 고집 센 소녀들을 완벽한 숙녀로 만들기 위해 설계된 무성한 열대 시설에서 깨어납니다. 그것만으로도 충분히 나쁘지만 실제 목적은 훨씬 더 나쁩니다.
+s92,Movie,여자와 살인자,"Mona Achache, Patricia Tourancheau",France,2021,92,"Documentaries, International Movies",이 다큐멘터리는 경찰서장과 피해자의 어머니라는 두 여성의 지칠 줄 모르는 노력을 통해 연쇄 살인범 기 조지를 체포하는 과정을 추적합니다.
+s94,Movie,JJ+E,Alexis Almstr?m,,2021,91,"Dramas, International Movies, Romantic Movies",엘리자베스와 존존은 같은 도시에 살고 있지만 서로 다른 세계에 살고 있습니다. 열정적인 첫사랑이 계급과 문화의 장벽을 뛰어넘을 수 있을까?
+s95,Movie,쇼 개,Raja Gosnell,"United Kingdom, United States",2018,90,"Children & Family Movies, Comedies",거칠고 강인한 경찰견은 불법 판매로부터 아기 팬더를 구하기 위해 도그쇼에서 꼼꼼하고 제대로 된 애완동물로 FBI 요원과 함께 잠복해야 합니다.
+s97,Movie,내일 여기를 떠난다면: 레너드 스키너드에 관한 영화,Stephen Kijak,United States,2018,97,"Documentaries, Music & Musicals",인터뷰와 기록 영상을 활용한 이 다큐멘터리는 프론트맨 Ronnie Van Zant에 초점을 맞춰 전설적인 남부 로커들의 이야기를 도표화합니다.
+s102,Movie,Untold: 한계점,"Chapman Way, Maclain Way",United States,2021,80,"Documentaries, Sports Movies",미국 테니스에서 승리의 전통을 이어가야 한다는 압박 속에서 Mardy Fish는 코트 안팎에서 그의 삶을 변화시키는 정신 건강 문제에 직면했습니다.
+s104,Movie,섀도우 파티,Yemi Amodu,,2020,117,"Dramas, International Movies, Thrillers",공격과 보복 속에서 친척들끼리 서로 경쟁하는 공동체 간의 오랜 갈등으로 인해 가족은 파멸에 직면하게 됩니다.
+s106,Movie,앙가말리 일기,Lijo Jose Pellissery,India,2017,128,"Action & Adventure, Comedies, Dramas",고향의 갱단 전쟁 속에서 성장한 빈센트는 자신만의 기업가 팀을 구성하고 결국 법의 반대편에 서게 됩니다.
+s108,Movie,챔피언 하트,David de Vos,United States,2018,90,"Children & Family Movies, Dramas","슬픔에 잠긴 십대 소녀가 목장에 대한 빚을 청산해야 할 때, 그녀는 부상당한 말을 돌보며 그녀가 예상했던 것보다 치유에 대해 더 많은 것을 가르쳐줍니다."
+s113,Movie,가치,Sara Colangelo,,2021,119,Dramas,9·11 테러 이후 한 변호사는 목숨을 잃은 사람들의 가치를 달러 가치로 평가하려다 감정적인 비난을 받게 된다. 실제 사건을 기반으로 합니다.
+s114,Movie,파티의 사후세계,Stephen Herek,,2021,110,"Comedies, Romantic Movies",캐시는 파티를 즐기며 살아가지만... 이상한 사고로 죽기 전까지는 말이죠. 이제 이 사회적 나비가 날개를 얻고 싶다면 지구에서 자신의 잘못을 바로잡아야 합니다.
+s115,Movie,안잠,Rahul Rawail,India,1994,143,"Dramas, International Movies, Thrillers","부유한 기업가의 승무원에 대한 위험한 집착은 그녀의 세계를 파괴하고, 그녀는 복수를 위해 스스로 문제를 해결합니다."
+s116,Movie,밝은 별,Jane Campion,"United Kingdom, Australia, France",2009,119,"Dramas, Romantic Movies",이 드라마는 낭만주의 시인 존 키츠의 3년간의 열정적인 로맨스를 자세히 설명합니다. 25세에 비극적으로 죽은 사람은 누구입니까? 그리고 그의 위대한 사랑과 뮤즈.
+s117,Movie,다낙,Nagesh Kukunoor,India,2015,114,"Comedies, Dramas, Independent Movies",영화를 좋아하는 10살 소녀와 그녀의 시각 장애인 남동생은 소년의 눈 수술을 받기 위해 인도의 슈퍼스타 샤룩 칸을 만나러 여행을 떠납니다.
+s118,Movie,최종 계정,Luke Holland,"United Kingdom, United States",2021,94,Documentaries,이 다큐멘터리는 히틀러의 제3제국에 참여했던 마지막 생존 세대와의 이전에 볼 수 없었던 인터뷰를 하나로 엮었습니다.
+s119,Movie,구르가온,Shanker Raman,India,2017,106,"Dramas, International Movies, Thrillers","부유한 집안의 딸이 대학에서 돌아오자, 그녀는 오빠로부터 냉담한 환영을 받는다. 그리고 계획? 그 자신의."
+s120,Movie,이리저리,JP Habac,,2020,99,"Dramas, International Movies, Romantic Movies","SNS를 통해 열띤 교류를 통해 만난 뒤, 서로 다른 배경을 가진 두 사람이 팬데믹 속에서 온라인 로맨스를 시작한다."
+s123,Movie,컷에서,Jane Campion,"United Kingdom, Australia, France, United States",2003,118,Thrillers,"젊은 여성의 살인 사건을 수사하던 경찰과 불륜 관계에 빠진 후, 고립된 학교 교사는 자신의 애인이 범죄에 연루되었다고 의심한다."
+s127,Movie,시카라,Vidhu Vinod Chopra,India,2020,115,"Dramas, International Movies, Romantic Movies",부부는 지역적 적대감으로 인해 사랑하는 집에서 난민 캠프로 내몰린 후에도 회복력을 유지하기 위해 노력해야 합니다.
+s128,Movie,신데렐라 스토리,Mark Rosman,"United States, Canada",2004,95,"Children & Family Movies, Comedies",10대 샘은 댄스 파티에서 꿈에 그리던 소년을 만나고 다시 계모의 식당으로 돌아갑니다. 그녀의 잃어버린 휴대폰이 그들을 하나로 모을 수 있을까요?
+s129,Movie,애거서 크리스티의 비뚤어진 집,Gilles Paquet-Brenner,,2017,115,"Dramas, International Movies, Thrillers",형사가 전 애인의 할아버지의 죽음을 조사하면서 그는 재벌의 교활한 가족에 대한 비밀을 밝혀냅니다.
+s130,Movie,끝나지 않은 삶,Lasse Hallstr?m,"Germany, United States",2005,108,Dramas,슬픔에 잠긴 미망인과 그녀의 딸은 와이오밍에 있는 소원해진 시아버지와 함께 이사하며 시간이 흐르면서 치유하고 용서할 수 있게 됩니다.
+s131,Movie,바비 빅 시티 빅 드림,Scott Pleydell-Pearce,,2021,63,"Children & Family Movies, Music & Musicals",뉴욕시의 여름 공연 예술 프로그램에서 말리부 출신의 바비는 브루클린 출신의 바비를 만나고 두 사람은 빠르게 친구가 됩니다.
+s132,Movie,블레이드 러너: 파이널 컷,Ridley Scott,United States,1982,117,"Action & Adventure, Classic Movies, Cult Movies","스모그가 자욱한 디스토피아적인 로스앤젤레스에서 블레이드 러너인 릭 데커드는 탈출한 ""복제체"" 4인방을 제거하기 위해 퇴직하라는 명령을 받습니다."
+s134,Movie,놈,Neill Blomkamp,"South Africa, United States",2015,121,"Action & Adventure, Sci-Fi & Fantasy",파괴할 수 없는 로봇 경찰이 범죄를 막는 미래 사회에서 고독한 드로이드가 다음 단계의 인공 지능으로 진화합니다.
+s135,Movie,명확하고 현존하는 위험,Phillip Noyce,"United States, Mexico",1994,142,"Action & Adventure, Dramas",대통령의 친구가 살해되자 CIA 부국장 잭 라이언은 자신도 모르게 콜롬비아 마약 카르텔과의 불법 전쟁에 연루되게 된다.
+s136,Movie,클리프행어,Renny Harlin,"United States, Italy, France, Japan",1993,113,Action & Adventure,"레인저 게이브 워커(Gabe Walker)와 그의 파트너는 발이 묶인 등반가 그룹을 구출하라는 부름을 받았지만, 등반가들이 실제로 납치범을 훔치고 있다는 사실을 알게 되었습니다."
+s137,Movie,콜드마운틴,Anthony Minghella,"United States, Italy, Romania, United Kingdom",2003,154,"Dramas, Romantic Movies",이 드라마는 부상당한 남북전쟁 군인이 집으로 긴 여정을 떠나는 동안 그의 머나먼 사랑이 돌아가신 아버지의 농장에서 생존을 위해 싸우는 이야기를 담고 있습니다.
+s138,Movie,로스앤젤레스의 크로커다일 던디,Simon Wincer,"Australia, United States",2001,95,"Action & Adventure, Comedies","Mick ""Crocodile"" Dundee와 그의 가족이 로스앤젤레스에 도착하자 곧 이 코미디 속편에서 미국 생활에 대한 몇 가지 교훈을 배우게 됩니다."
+s139,Movie,친애하는 존,Lasse Hallstr?m,United States,2010,108,"Dramas, Romantic Movies",여름 휴가 중 미군 병사가 대학생에게 반한다. 하지만 강제로 재입대하게 되자 두 사람의 손으로 쓴 편지가 두 연인을 하나로 묶어준다.
+s140,Movie,옳은 일을 하세요,Spike Lee,United States,1989,120,"Classic Movies, Comedies, Dramas","브루클린의 어느 무더운 날, 주민들 사이의 끓어오르는 인종적 갈등이 표면으로 솟아오르고 분노, 폭력, 비극이 촉발됩니다."
+s141,Movie,"El Patr?n, radiograf?a de un Crimen",Sebasti?n Schindel,"Argentina, Venezuela",2014,100,"Dramas, International Movies, Thrillers",부에노스아이레스에서 정육점으로 일하던 중 잔인한 상사에게 착취당해 비극을 초래한 문맹 남성을 변호사가 변호한다. 실제 사례를 기반으로 합니다.
+s142,Movie,추출,Steven C. Miller,"United States, United Kingdom, Canada",2015,82,Action & Adventure,"은퇴한 CIA 요원이 납치되자, 정부 분석가인 그의 아들은 그를 찾아 테러 음모를 저지하기 위해 승인되지 않은 임무에 착수합니다."
+s143,Movie,자유 작가,Richard LaGravenese,"Germany, United States",2007,124,Dramas,"위험에 처한 학생들이 ""안네 프랑크의 일기""와 같은 고전을 읽는 동안 교사는 그들에게 그들의 힘든 삶에 대한 일기를 써달라고 부탁합니다."
+s144,Movie,그린 랜턴,Martin Campbell,United States,2011,114,"Action & Adventure, Sci-Fi & Fantasy",시험 조종사 Hal Jordan은 초자연적인 반지를 착용하고 빛나는 새로운 힘을 영원히 활용하고 은하계 군대가 강력한 위협을 막을 수 있도록 돕습니다.
+s145,Movie,하우스 파티,Reginald Hudlin,United States,1990,104,"Comedies, Cult Movies",엄격한 아버지의 영향을 받은 키드는 목숨을 걸고 가장 친한 친구인 플레이의 큰 공격을 받으러 갔지만 연이어 장애물을 겪게 됩니다.
+s146,Movie,하우스 파티 2,"George Jackson, Doug McHenry",United States,1991,94,"Comedies, Cult Movies, Music & Musicals",키드는 장학금을 받고 대학에 진학하지만 플레이가 수상한 음악 기획자에게 키드의 등록금을 잃자 현금을 마련하기 위한 무모한 계획을 세웁니다.
+s147,Movie,하우스 파티 3,Eric Meza,United States,1994,94,"Comedies, Music & Musicals",Kid가 약혼한 후 Play는 역대 최대 규모의 총각 파티를 열 계획입니다. 하지만 이 두 사람을 위한 모든 축하에는 항상 합병증이 따릅니다.
+s150,Movie,나는 연결을 얻었다,Michael Martin,United States,1998,93,"Action & Adventure, Comedies",두 명의 사기꾼이 잘못된 방향으로 배송된 휴대폰을 손에 넣은 후 밴 뒤에서 상품을 팔아 현금을 얻으려고 합니다.
+s151,Movie,너무 깊은 곳에,Michael Rymer,United States,1999,97,Thrillers,"신인 경찰 제프리 콜은 마약상으로 행세하여 범죄 두목을 쓰러뜨리고 곧 뇌물 수수, 협박, 살인이 난무하는 지하 세계에 휘말리게 됩니다."
+s152,Movie,이니셜D,"Andrew Lau Wai-keung, Alan Mak","China, Hong Kong",2005,109,"Action & Adventure, International Movies",낮에는 18세 소년이 은퇴한 경주용 자동차 운전자인 아버지를 위해 두부를 배달합니다. 하지만 밤에는 십대가 운전대를 잡을 차례입니다.
+s153,Movie,야노스키안: 알려지지 않은 것과 사실이 아닌 것,Brett Weiner,United States,2016,88,Comedies,YouTube에 장난과 개그를 게시하여 국제적인 센세이션을 일으킨 세 명의 호주 형제와 두 친구의 이야기를 따라가보세요.
+s156,Movie,미궁,Jim Henson,"United Kingdom, United States",1986,101,"Action & Adventure, Children & Family Movies, Cult Movies",짐 헨슨의 판타지에서 10대 사라는 위험한 도깨비의 손아귀에서 남동생을 구하기 위해 인생을 바꾸는 모험을 시작합니다.
+s157,Movie,줄리엣에게 보내는 편지,Gary Winick,United States,2010,105,"Comedies, Dramas, Romantic Movies",이탈리아 베로나에 사는 미국인 여성은 셰익스피어의 비극적 여주인공 줄리엣 캐풀렛에게 보낸 편지에 답장을 보내면서 로맨스를 찾아 나선다.
+s158,Movie,레벨 16,Danishka Esterhazy,Canada,2018,102,"Sci-Fi & Fantasy, Thrillers",소녀들에게 수동성의 미덕을 가르치는 암울한 학원에서 두 학생은 훈련 뒤에 숨은 무시무시한 목적을 밝혀내고 탈출을 결심합니다.
+s159,Movie,사랑에는 비용이 들지 않습니다,Troy Byer,United States,2003,101,"Comedies, Romantic Movies",괴짜 십대는 인기 있는 치어리더에게 자신의 여자친구인 척 하라고 설득하면서 교제를 통해 자신을 멋있게 보이려고 노력합니다.
+s160,Movie,퍼프 속의 사랑,Pang Ho-cheung,Hong Kong,2010,103,"Comedies, Dramas, International Movies","홍콩 정부가 실내에서 담배를 피우는 것을 금지하는 법안을 제정하자, 새로운 법은 하드코어 흡연자들을 밖으로 몰아내며, 예상치 못한 관계를 촉진합니다."
+s162,Movie,화성 공격!,Tim Burton,United States,1996,106,"Comedies, Cult Movies, Sci-Fi & Fantasy",비행 접시가 지구로 향하는 동안 미국 대통령은 외계인 방문객을 환영할 준비를 하지만 곧 그들이 평화롭게 오지 않는다는 사실을 알게 됩니다.
+s163,Movie,마샬,Reginald Hudlin,"United States, China, Hong Kong",2017,118,Dramas,미국 최초의 흑인 대법원 판사인 서굿 마샬(Thurgood Marshall)의 전기 영화는 NAACP 변호사로서 놀라운 사건에서 그의 중추적인 역할을 중심으로 진행됩니다.
+s164,Movie,내 상사의 딸,David Zucker,United States,2003,86,"Comedies, Romantic Movies",한 청년은 못된 상사의 집에 앉아 오랫동안 짝사랑하던 상사의 딸의 마음을 얻으려는 기회로 삼고자 한다.
+s165,Movie,미스터리 맨,Kinka Usher,United States,1999,121,"Action & Adventure, Comedies",슈퍼 영웅과는 거리가 먼 영웅들로 구성된 팀은 용감하고 대담한 캡틴 어메이징이 사라지자 즉시 행동에 나서 존경을 얻으려고 노력합니다.
+s167,Movie,원스 어폰 어 타임 인 아메리카,Sergio Leone,"Italy, United States",1984,229,"Classic Movies, Dramas",세르지오 레오네 감독의 대대적인 범죄 서사시는 1920년대 뉴욕시에서 조직범죄의 대열에 오르는 유대인 마피아 집단을 따릅니다.
+s168,Movie,시즌 2 오픈,"Matthew O'Callaghan, Todd Wilderman","United States, Canada",2008,76,"Children & Family Movies, Comedies",사슴 엘리엇과 숲에 사는 그의 동료들은 닥스훈트 친구를 가정으로 돌려보내려는 버릇없는 애완동물로부터 구출해야 합니다.
+s169,Movie,삼투 존스,"Bobby Farrelly, Peter Farrelly",United States,2001,95,"Action & Adventure, Children & Family Movies, Comedies",피터 패럴리(Peter Farrelly)와 바비 패럴리(Bobby Farrelly)는 다양한 유기체의 숙주인 기형적인 40세 남성에 대한 부분 애니메이션 이야기로 자신들을 능가합니다.
+s170,Movie,포세이돈,Wolfgang Petersen,United States,2006,98,"Action & Adventure, Dramas",해일은 거대한 선박을 전복시켜 승객들을 생존을 위한 전투로 몰아넣으면서 새해 전야를 즐기던 선박에 재앙을 가져옵니다.
+s171,Movie,운율과 이유,Peter Spirer,United States,1997,89,"Documentaries, Music & Musicals","인종, 폭력, 경찰, 가족, 섹스 등 랩 노래를 주제로 한 세계와 문화를 양국의 힙합 연주자들이 살펴봅니다."
+s172,Movie,나와 같은 종류의 다른,Michael Carney,United States,2017,120,"Dramas, Faith & Spirituality",이 감동적인 실화에서 결혼 생활이 위태로운 부유한 부부는 자신의 관점을 바꾸는 지역 노숙자와 친구가 됩니다.
+s173,Movie,스쿨 오브 락,Richard Linklater,"United States, Germany",2003,110,"Comedies, Music & Musicals",음악가 듀이 핀(Dewey Finn)은 4학년 대리 교사로 취직하여 비밀리에 학생들에게 로큰롤의 미세한 부분을 가르치기 시작합니다.
+s174,Movie,불안한 타일러 오클리,Amy Rice,United States,2015,83,"Documentaries, LGBTQ Movies","영감을 주는 인터넷 스타이자 LGBT 옹호자인 그는 국제 ""슬럼버 파티"" 투어를 통해 자신의 삶과 관계에 대한 친밀한 견해를 공유합니다."
+s175,Movie,태양의 눈물,Antoine Fuqua,United States,2003,121,"Action & Adventure, Dramas","Navy SEAL은 의사를 구출하기 위해 전쟁으로 황폐화된 아프리카 정글로 파견되지만, 의사의 보살핌을 받으며 난민도 구해야 한다는 사실을 깨닫게 됩니다."
+s176,Movie,블루 라군,Randal Kleiser,United States,1980,105,"Dramas, Romantic Movies",난파된 두 어린이는 무인도에 수년 동안 갇혀 지내다가 십대 때 사랑에 빠지고 고립된 낙원에서 삶을 개척하려고 시도합니다.
+s177,Movie,골든 차일드,Michael Ritchie,United States,1986,94,"Action & Adventure, Comedies",말이 빠른 L.A. 사회복지사는 신비한 힘을 지닌 납치된 티베트 어린이를 찾기 위해 일련의 함정과 공포를 겪는다.
+s178,Movie,나바로네의 총,J. Lee Thompson,"United Kingdom, United States",1961,156,"Action & Adventure, Classic Movies",제2차 세계 대전 중에 영국군은 중요한 해로를 지키고 있는 거대한 나치 대포를 제거하기 위해 공격을 시작합니다.
+s179,Movie,인터뷰,"Evan Goldberg, Seth Rogen",United States,2014,112,"Action & Adventure, Comedies",세스 로건과 제임스 프랭코가 주연을 맡은 이 도발적인 코미디는 김정은과의 인터뷰를 주선한 후 CIA에 채용된 두 명의 기자에 대한 이야기를 담고 있습니다.
+s180,Movie,너티 교수,Tom Shadyac,United States,1996,95,"Comedies, Romantic Movies","몸무게 때문에 놀림을 받은 후, 친절하고 총명한 교수는 외모보다 더 많은 것을 변화시키는 혁신적인 공식을 복용합니다."
+s181,Movie,너티 프로페서 II: 클럼프스,Peter Segal,,2000,107,"Comedies, Romantic Movies",약혼 후 셔먼 클럼프는 중요한 하루를 준비합니다. 그러나 그의 사악한 분신 버디 러브(Buddy Love)는 그의 결혼 생활과 명성을 망치겠다고 위협합니다.
+s183,Movie,홈에 오신 것을 환영합니다 로스코 젠킨스,Malcolm D. Lee,United States,2008,114,Comedies,"RJ 부모님의 50주년 기념일을 맞아 조지아로 여행을 떠난다. 하지만 자신의 할리우드 라이프스타일을 거창하게 과시한 후, 그는 자신이 어떤 사람이 되었는지 조사해야 합니다."
+s184,Movie,사선에서,Wolfgang Petersen,United States,1993,129,"Action & Adventure, Classic Movies",뒤틀리지만 독창적인 살인범이 몇 년 전 존 F. 케네디 대통령을 구하지 못한 일로 괴로워하는 베테랑 비밀경호국 요원을 괴롭힙니다.
+s186,Movie,Untold: 범죄 및 처벌,"Chapman Way, Maclain Way",,2021,86,"Documentaries, Sports Movies",그들은 하키의 나쁜 소년들이었나? 마피아와 연줄이 있는 남자가 인수하고 17세 아들이 운영하며 좋은 만큼 폭력적이라는 평판을 받는 팀입니다.
+s189,Movie,2 파리에 나홀로,"Ramzy Bedia, ?ric Judor",France,2008,97,"Comedies, International Movies",서투른 파리 경찰은 자신이 지구상에 마지막 두 사람임에도 불구하고 계속해서 자신을 피해가는 대도둑을 잡기 위해 끈질기게 결심합니다.
+s191,Movie,팀마루수,Sharan Koppisetty,India,2021,125,"Dramas, International Movies","한 청년이 살인 누명을 쓴 지 8년 후, 떠오르는 변호사가 사건을 다시 시작하면서 진짜 범인을 찾기 위한 까다로운 임무를 시작합니다."
+s192,Movie,윈드 리버,Taylor Sheridan,"United Kingdom, Canada, United States",2017,107,"Dramas, Independent Movies",미국 어류 및 야생동물 보호국의 추적자가 와이오밍주 외딴 보호구역에서 10대 소녀 살해 사건을 수사 중인 신입 FBI 요원을 돕습니다.
+s193,Movie,C 꼼파니,Sachin Yardi,India,2008,127,"Action & Adventure, Comedies, International Movies","세 명의 파산한 친구가 강탈을 위해 지하 갱단으로 행세하지만, 그들의 가짜 회사가 유명해지면서 그들의 계획은 자취를 감추게 됩니다."
+s196,Movie,EMI: 리야 하이(Liya Hai)에서 추카나 파데가(Chukana Padega)까지,Saurabh Kabra,India,2008,128,"Comedies, Dramas, International Movies",은행은 대출금을 갚을 수 없는 네 명의 대출자로부터 돈을 회수하기 위해 수수께끼의 비정통적인 채권추심자를 고용합니다.
+s197,Movie,그는 그 모든 것입니다,Mark Waters,,2021,92,"Comedies, Romantic Movies","화장 전문 인플루언서가 십대 고전 ""She's All That""을 리메이크한 이 영화에서 인기 없는 동급생을 무도회 왕으로 변신시킬 수 있다고 확신합니다."
+s200,Movie,코이 압 사,Partho Mitra,India,2006,135,"Comedies, Dramas, International Movies",스타 운동선수 로한은 아름다운 미술 학생을 눈여겨보고 있습니다. 그러나 그의 가장 친한 친구 심란이 위기를 겪자 그는 그녀를 돕기 위해 모든 것을 버렸다.
+s201,Movie,크리슈나 코티지,Santram Varma,India,2004,124,"Action & Adventure, Horror Movies, International Movies",이 스릴러에서는 두 명의 불행한 젊은 연인 사이에 또 ??다른 여성이 등장하면서 진정한 사랑이 시험대에 오르게 됩니다.
+s202,Movie,쿠치 투 하이,"Anil V. Kumar, Anurag Basu",India,2003,136,"Dramas, International Movies, Thrillers",한 학생이 선생님 집에서 시험지를 훔치려다 사고로 선생님을 죽게 만들었다. 연쇄살인이 교수의 복수일지도 모른다.
+s203,Movie,캬 쿨 하이 흠,Sangeeth Sivan,India,2005,165,"Comedies, International Movies, Music & Musicals","오랜 친구인 라훌과 카란은 꿈을 이루기 위해 뭄바이로 향하지만, 두 남자 모두 갑자기 불운을 겪게 된다."
+s204,Movie,캬 쿨 하인 험 3,Umesh Ghadge,India,2016,124,"Comedies, International Movies",예상 밖의 포르노 배우가 업계 밖의 여성에게 반하자 그는 아버지에게 깊은 인상을 주기 위해 함께 출연한 배우들을 전통적인 가족 대리자로 고용합니다.
+s205,Movie,캬 슈퍼 쿨 하인 흠,Sachin Yardi,India,2012,136,"Comedies, International Movies",야심찬 배우 지망생과 고군분투하는 DJ가 팀을 이루어 자신이 사랑하는 여성과 과잉 섹스된 개에게 속한 다이아몬드를 쫓습니다.
+s206,Movie,키이 쿄... 메인 유스 나힌 볼타,David Dhawan,India,2001,150,"Comedies, International Movies, Sci-Fi & Fantasy",변호사의 삶과 경력은 아들의 소원 때문에 마술처럼 거짓말을 할 수 없게 되면서 혼란에 빠진다.
+s207,Movie,"LSD: 사랑, 섹스 아우르 도카",Dibakar Banerjee,India,2010,112,"Dramas, Independent Movies, International Movies",이 도발적인 드라마는 현대 사회의 관음증적 성격이 인도 북부의 특이한 세 커플에게 어떤 영향을 미치는지 조사합니다.
+s208,Movie,미션 이스탄불: Darr Ke Aagey Jeet Hai,Apoorva Lakhia,India,2008,119,"Action & Adventure, International Movies, Music & Musicals",텔레비전 기자는 논란의 여지가 있는 이스탄불 텔레비전 방송국의 구인 제안을 수락하여 위험한 경력을 쌓게 됩니다.
+s209,Movie,원스 어폰 어 타임 인 뭄바이,Milan Luthria,India,2010,133,"Dramas, International Movies, Music & Musicals","뭄바이 최고의 마피아 보스는 명예와 연민으로 지하세계를 다스리지만, 권력에 굶주린 그의 동료는? 조직범죄의 세계를 뒤흔들 것이다."
+s210,Movie,원스 어폰 어 타임 인 뭄바이 도바라!,Milan Luthria,India,2013,142,"Dramas, International Movies, Music & Musicals",원스 어폰 어 타임 인 뭄바이(Once Upon a Time in Mumbai)의 이 격동적인 속편은 계속해서 더 많은 통제를 요구하는 갱단 돈 쇼아이브 칸(Shoaib Khan)의 전설을 이어갑니다.
+s211,Movie,라기니 MMS,Pawan Kripalani,India,2011,93,"Horror Movies, International Movies",감각적인 주말을 보내기 위해 뭄바이 외곽의 한 집에 나간 커플은 감시 카메라가 설치되어 있고 사악한 존재가 점거하고 있는 집을 발견합니다.
+s212,Movie,라기니 MMS 2,Bhushan Patel,India,2014,113,"Horror Movies, International Movies",Ragini의 비디오가 입소문을 타고 퍼지고 천박한 감독이 원래 집에서 일어난 사건에 대한 영화를 만들기로 결정하면서 공포는 계속됩니다.
+s215,Movie,SAS: 라이즈 오브 더 블랙 스완,Magnus Martens,,2021,124,"Action & Adventure, International Movies",여자친구와 함께 런던에서 파리로 여행하는 특수부대 요원이 무장하고 무자비한 용병들이 기차를 장악하자 조치를 취합니다.
+s216,Movie,Lokhandwala에서의 총격전,Apoorva Lakhia,India,2007,116,"Action & Adventure, Dramas, International Movies",실화를 바탕으로 한 이 액션 영화는 1990년대 초 국가를 경악하게 만든 사건을 다룬다. 인도 뭄바이에서 악명 높은 갱스터 마야가 베테랑 경찰 칸과 200명이 넘는 경찰을 상대로 6시간 동안 유혈 총격전을 벌였습니다.
+s217,Movie,쇼어 인 더 시티,"Raj Nidimoru, Krishna D.K.",India,2011,106,"Comedies, Dramas, Independent Movies",뭄바이의 작은 도둑 세 명이 기차에서 가방을 훔치면서 그 안에 무기가 가득 들어 있다는 사실을 발견하고 자신들의 생명이 위험에 처할 수 있다는 사실을 깨닫게 됩니다.
+s218,Movie,더러운 그림,Milan Luthria,India,2011,145,"Comedies, Dramas, International Movies",영화배우가 되기 위해 가출한 마을 소녀는 유명 섹스 심볼로 성장한다.
+s222,Movie,"밥 로스: 행복한 사고, 배신, 탐욕",Joshua Rof?,,2021,93,Documentaries,밥 로스는 세계에서 가장 유명한 미술 ??강사로서 수백만 명에게 기쁨을 안겨주었습니다. 그러나 그의 사업 제국을 위한 전쟁은 그의 행복한 나무에 그림자를 드리웠습니다.
+s228,Movie,정말 사랑해요,Angel Kristi Williams,United States,2020,95,"Dramas, Independent Movies, Romantic Movies",떠오르는 흑인 화가는 야심 찬 법대생과 예상치 못한 로맨스의 균형을 맞추면서 경쟁이 치열한 예술 세계에 뛰어들려고 합니다.
+s229,Movie,11월의 남자,Roger Donaldson,"United States, United Kingdom",2014,108,Action & Adventure,전 CIA 요원이 중요한 증인을 보호하기 위해 은퇴했지만 곧 오랜 친구가 가장 위험한 적을 만들 수 있다는 사실을 깨닫게 됩니다.
+s230,Movie,옛날 방식,Christopher Alender,United States,2020,90,Horror Movies,"한 기자가 부족 문화에 대한 이야기를 취재하기 위해 베라크루즈에 있는 그녀의 출생지를 방문했지만, 그녀가 악마에 사로잡혔다고 믿는 현지인들에게 납치당했습니다."
+s231,Movie,리버 러너,Rush Sturges,,2021,86,"Documentaries, Sports Movies",이 다큐멘터리에서 한 카약커는 티베트의 신성한 카일라쉬 산에서 흘러나오는 4대 강에서 최초로 노를 젓는 사람이 되기 위해 출발합니다.
+s232,Movie,워터맨,David Oyelowo,United States,2021,92,"Children & Family Movies, Dramas",병든 어머니를 구하기 위해 필사적으로 11세의 거너는 죽음을 속일 수 있는 힘이 있다는 소문이 있는 신화 속의 인물을 찾기 위해 집을 떠나 도망칩니다.
