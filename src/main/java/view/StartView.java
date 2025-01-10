@@ -23,7 +23,6 @@ public class StartView {
 			System.out.println("\n메뉴를 선택하세요");
 			System.out.println("1. 로그인");
 			System.out.println("2. 회원가입");
-			System.out.println("3. 계정 탈퇴");
 			System.out.println("4. 종료");
 			int num = scanner.nextInt();
 			scanner.nextLine();
@@ -35,7 +34,7 @@ public class StartView {
 				signUpView();
 				break;
 			case 3:
-				deleteUser();
+				break;
 			case 4:
 				return;
 			}
