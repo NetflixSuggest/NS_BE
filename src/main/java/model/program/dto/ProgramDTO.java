@@ -1,17 +1,15 @@
-package main.java.model.program;
+package main.java.model.program.dto;
 
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
+@Builder
 @ToString
-public class Program {
+public class ProgramDTO {
 	String showId;
 	String types;
 	String title;
