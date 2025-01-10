@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.Properties;
 
 public class DBUtil {
-	private static final String loc = "C:\\Users\\hyundoo\\NS_BE\\src\\main\\resources\\application_db.properties";
+	private static final String loc = "src\\main\\resources\\application_db.properties";
 	private static Properties dbinfo = new Properties();
 
 	static {
