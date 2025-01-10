@@ -25,7 +25,6 @@ public class DBUtil {
 		String url = dbinfo.getProperty("db.mysql.url");
 		String username = dbinfo.getProperty("db.mysql.username");
 		String password = dbinfo.getProperty("db.mysql.password");
-		System.out.println(url+username+password);
 		return DriverManager.getConnection(url, username, password);
 	}
 
