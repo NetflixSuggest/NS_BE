@@ -6,13 +6,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
-@Setter
 @Builder
-public class User {
+public class UserDTO {
 	private String id;
 	private String pw;
-	private UserRole role;
 }
