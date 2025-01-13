@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Scanner;
 
+import main.java.controller.admin.AdminController;
+import main.java.controller.user.UserController;
 import main.java.model.user.UserDTO;
 import main.java.model.user.UserLoginDTO;
 import main.java.model.user.UserResponseDTO;
@@ -47,8 +49,7 @@ public class StartView {
 		String userId = scanner.nextLine();
 		System.out.print("비밀번호 : ");
 		String password = scanner.nextLine();
-		UserLoginDTO user = UserLoginDTO.builder().id(userId).pw(password).build();
-		UserResponseDTO user_info = UserService.checkUser(user);
+		UserResponseDTO user_info = UserController.login(userId, password);
 		if (user_info != null) {
 			System.out.println("로그인 성공");
 			loginSuccessView(user_info.getRole().name());
@@ -64,9 +65,7 @@ public class StartView {
 		System.out.print("비밀번호 : ");
 		String password = scanner.nextLine();
 
-		UserDTO user = UserDTO.builder().id(userId).pw(password).build();
-
-		if (UserService.addUser(user)) {
+		if (UserController.signUp(userId, password)) {
 			System.out.println("회원가입 성공!");
 		} else {
 			System.out.println("중복된 아이디 입니다. 다시 시도해주세요.");
@@ -76,7 +75,7 @@ public class StartView {
 	private static void deleteUser() {
 		System.out.println("삭제할 유저의 Id를 입력해주세요");
 		String deleteId = scanner.nextLine();
-		UserResponseDTO user = UserService.getUserById(deleteId);
+		UserResponseDTO user = AdminController.getUserById(deleteId);
 		if (user != null) {
 			if (UserService.deleteUser(deleteId)) {
 				System.out.println("삭제 성공했습니다.");
@@ -87,7 +86,7 @@ public class StartView {
 	}
 
 	private static void printUsers() throws SQLException {
-		ArrayList<UserResponseDTO> users = UserService.getUsers();
+		ArrayList<UserResponseDTO> users = AdminController.getUsers();
 		System.out.println("------------------------------");
 		for (UserResponseDTO user : users) {
 			System.out.println(user);

@@ -24,7 +24,7 @@ public class UserService {
 		return UserDAO.checkUser(user);
 	}
 	
-	//id에 맞는 유저 검색
+	//id에 맞는 유저 검색 X
 	public static UserResponseDTO getUserById(String userId) {
 		return UserDAO.getUserById(userId);
 	}
