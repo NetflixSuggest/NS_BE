@@ -24,7 +24,7 @@ public class UserDAO {
 		try {
 			con = DBUtil.getConnection();
 			// 올바른 SQL 쿼리 작성
-			pstmt = con.prepareStatement("SELECT userId, userRole FROM netflix_movies");
+			pstmt = con.prepareStatement("SELECT id, user_role FROM user");
 			// 쿼리 실행 및 결과 처리
 			rs = pstmt.executeQuery();
 			while (rs.next()){
@@ -52,7 +52,7 @@ public class UserDAO {
 		try {
 			con = DBUtil.getConnection();
 			// 올바른 SQL 쿼리 작성
-			pstmt = con.prepareStatement("select userId, userRole FROM netflix_movies WHERE userId = ?");
+			pstmt = con.prepareStatement("select id, user_role FROM user WHERE id = ?");
 			pstmt.setString(1, userId);
 			rs = pstmt.executeQuery();
 			
@@ -76,10 +76,11 @@ public class UserDAO {
 	public static boolean deleteUser(String userId) {
 		Connection con = null;
 		PreparedStatement pstmt = null;
+		
 		try {
 			con = DBUtil.getConnection();
 			// 올바른 SQL 쿼리 작성
-			pstmt = con.prepareStatement("DELETE FROM netflix_movies WHERE userId = ?");
+			pstmt = con.prepareStatement("DELETE FROM user WHERE id = ?");
 			pstmt.setString(1, userId);
 			// 쿼리 실행 및 결과 확인
 			int rowsDeleted = pstmt.executeUpdate();
@@ -89,6 +90,7 @@ public class UserDAO {
 		} finally {
 			DBUtil.close(con, pstmt); // 리소스 해제
 		}
+		
 		return false; // 예외 발생 또는 삭제 실패 시 false 반환
 	}
 
@@ -99,7 +101,7 @@ public class UserDAO {
 		try {
 			if (!isDuplicate(user.getId())) {
 				con = DBUtil.getConnection();
-				pstmt = con.prepareStatement("insert into netflix_movies (userId, userPw, userRole) values(?, ?, ?)");
+				pstmt = con.prepareStatement("insert into user (id, pwd, user_role) values(?, ?, ?)");
 				pstmt.setString(1, user.getId());
 				pstmt.setString(2, user.getPw());
 				pstmt.setString(3, UserService.checkAdminByPw(user.getPw()).name());
@@ -119,14 +121,16 @@ public class UserDAO {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rset = null;
+		
 		try {
 			con = DBUtil.getConnection();
-			pstmt = con.prepareStatement("select userPw from netflix_movies where userId=?");
+			pstmt = con.prepareStatement("select pwd from user where id=?");
 			pstmt.setString(1, user.getId());
 			rset = pstmt.executeQuery();
+			
 			if (rset.next()) {
-				String db_pw = rset.getString(1);
-				if (db_pw.equals(user.getPw())) {
+				String dbPw = rset.getString(1);
+				if (dbPw.equals(user.getPw())) {
 					return getUserById(user.getId());
 				}
 			} else {
@@ -136,6 +140,7 @@ public class UserDAO {
 		} finally {
 			DBUtil.close(con, pstmt, rset);
 		}
+		
 		return null;
 	}
 
@@ -146,7 +151,7 @@ public class UserDAO {
 		ResultSet rset = null;
 		try {
 			con = DBUtil.getConnection();
-			pstmt = con.prepareStatement("select userId from netflix_movies where userId=?");
+			pstmt = con.prepareStatement("select id from user where id=?");
 			pstmt.setString(1, userId);
 			rset = pstmt.executeQuery();
 			if (!rset.next()) {

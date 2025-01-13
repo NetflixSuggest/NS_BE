@@ -42,10 +42,10 @@ public class StartView {
 		String password = scanner.nextLine();
 		UserResponseDTO user_info = UserController.login(userId, password);
 		if (user_info != null) {
-			System.out.println("로그인 성공");
+			EndView.successMessage("로그인 성공");
 			loginSuccessView(user_info.getRole().name());
 		} else {
-			System.out.println("로그인 실패");
+			FailView.failMessage("로그인 실패");
 		}
 	}
 
@@ -57,9 +57,9 @@ public class StartView {
 		String password = scanner.nextLine();
 
 		if (UserController.signUp(userId, password)) {
-			System.out.println("회원가입 성공!");
+			EndView.successMessage("회원가입 성공");
 		} else {
-			System.out.println("중복된 아이디 입니다. 다시 시도해주세요.");
+			FailView.failMessage("중복된 아이디 입니다. 다시 시도해주세요.");
 		}
 	}
 
@@ -69,19 +69,10 @@ public class StartView {
 		UserResponseDTO user = AdminController.getUserById(deleteId);
 		if (user != null) {
 			if (UserService.deleteUser(deleteId)) {
-				System.out.println("삭제 성공했습니다.");
+				EndView.successMessage("삭제 성공했습니다.");
 			}
 		} else {
-			System.out.println("삭제 실패했습니다.");
-		}
-	}
-
-	private static void printUsers() throws SQLException {
-		ArrayList<UserResponseDTO> users = AdminController.getUsers();
-		System.out.println("------------------------------");
-		for (UserResponseDTO user : users) {
-			System.out.println(user);
-			System.out.println("------------------------------");
+			FailView.failMessage("삭제 실패했습니다.");
 		}
 	}
 
@@ -107,8 +98,8 @@ public class StartView {
 
 			int num = scanner.nextInt();
 			scanner.nextLine();
-			if (num > 7 && !role.equals("ADMIN")) {
-				System.out.println("1~7 중 하나를 입력하세요");
+			if (num > 8 && !role.equals("ADMIN")) {
+				System.out.println("1~8 중 하나를 입력하세요");
 			} else {
 				switch (num) {
 				case 1:
@@ -134,7 +125,7 @@ public class StartView {
 				case 11:
 					break;
 				case 12:
-					printUsers();
+					EndView.printUsers(AdminController.getUsers());
 					break;
 				case 13:
 					deleteUser();
