@@ -5,7 +5,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import main.java.controller.admin.AdminController;
+import main.java.controller.program.ProgramController;
 import main.java.controller.user.UserController;
+import main.java.model.program.dto.ProgramDTO;
+import main.java.model.program.dto.ProgramRequestDTO;
 import main.java.model.user.dto.UserResponseDTO;
 import main.java.service.user.UserService;
 
@@ -103,26 +106,55 @@ public class StartView {
 			} else {
 				switch (num) {
 				case 1:
+					//수정필수
+					String title = scanner.nextLine();
+					EndView.printMovies(ProgramController.getProgramByTitle(title));
 					break;
 				case 2:
+					String director = scanner.nextLine();
+					EndView.printMovies(ProgramController.getProgramByDirector(director));
 					break;
 				case 3:
+					String country = scanner.nextLine();
+					EndView.printMovies(ProgramController.getProgramByCountry(country));
 					break;
 				case 4:
+					int year = Integer.parseInt(scanner.nextLine());
+					EndView.printMovies(ProgramController.getProgramByReleaseYear(year));
 					break;
 				case 5:
+					String genre = scanner.nextLine();
+					EndView.printMovies(ProgramController.getProgramByGenre(genre));
 					break;
 				case 6:
+					EndView.printMovies(ProgramController.getAllProgram());
 					break;
 				case 7:
+					String genre2 = scanner.nextLine();
+					EndView.printMovies(ProgramController.getRecommendProgramByGenre(genre2));
 					break;
 				case 8:
 					return;
 				case 9:
+					String showId = scanner.nextLine();
+					String types = scanner.nextLine();
+					String title3 = scanner.nextLine();
+					String director3 = scanner.nextLine();
+					String country3 = scanner.nextLine();
+					int releaseYear = Integer.parseInt(scanner.nextLine());
+					int duration = Integer.parseInt(scanner.nextLine());
+					String listedIn = scanner.nextLine();
+					String description = scanner.nextLine();
+					ProgramController.addProgram(showId, types, title3, director3, country3, releaseYear, duration, listedIn, description);
 					break;
 				case 10:
+					String showId2 = scanner.nextLine();
+					String title2 = scanner.nextLine();
+					ProgramController.updateProgramTitle(showId2, title2);
 					break;
 				case 11:
+					String showId5 = scanner.nextLine();
+					ProgramController.deleteProgram(showId5);
 					break;
 				case 12:
 					EndView.printUsers(AdminController.getUsers());

@@ -5,6 +5,8 @@ import java.util.ArrayList;
 
 import main.java.model.program.ProgramDAO;
 import main.java.model.program.dto.ProgramDTO;
+import main.java.model.program.dto.ProgramMapper;
+import main.java.model.program.dto.ProgramRequestDTO;
 
 public class ProgramService {
 	private static ProgramService instance = new ProgramService();
@@ -26,8 +28,8 @@ public class ProgramService {
 		return ProgramDAO.updateProgramTitle(showId, title);
 	}
 
-	public boolean addProgram(ProgramDTO program) throws Exception {
-		return ProgramDAO.insertProgram(program);
+	public boolean addProgram(ProgramRequestDTO dto) throws Exception {
+		return ProgramDAO.insertProgram(dto);
 	}
 	
 	public ArrayList<ProgramDTO> getProgramByTitle(String title) throws Exception {
@@ -59,6 +61,6 @@ public class ProgramService {
 	}
 	
 	public ArrayList<ProgramDTO> getRecommendProgrambyGenre(String genre) throws Exception {
-        return ProgramDAO.getRecommendProgrambyGenre(genre);
-    }
+		return ProgramDAO.getRecommendProgrambyGenre(genre);
+	}
 }

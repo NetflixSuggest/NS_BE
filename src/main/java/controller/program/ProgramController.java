@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import main.java.model.program.dto.ProgramDTO;
+import main.java.model.program.dto.ProgramRequestDTO;
 import main.java.service.program.ProgramService;
 
 public class ProgramController {
@@ -34,7 +35,7 @@ public class ProgramController {
 	public static boolean addProgram(String showId, String types, String title, String director, String country,
 			int releaseYear, int duration, String listedIn, String description) {
 		try {
-			ProgramDTO program = ProgramDTO.builder().showId(showId).types(types).title(title).director(director)
+			ProgramRequestDTO program = ProgramRequestDTO.builder().showId(showId).types(types).title(title).director(director)
 					.country(country).releaseYear(releaseYear).duration(duration).listedIn(listedIn)
 					.description(description).build();
 			return instance.addProgram(program);

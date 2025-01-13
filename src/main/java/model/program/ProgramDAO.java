@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 import main.java.model.program.dto.ProgramDTO;
+import main.java.model.program.dto.ProgramRequestDTO;
 import main.java.model.util.DBUtil;
 
 public class ProgramDAO {
@@ -60,7 +61,7 @@ public class ProgramDAO {
 	}
 	
 	// Select
-		public static boolean insertProgram(ProgramDTO dto) throws Exception {
+		public static boolean insertProgram(ProgramRequestDTO dto) throws Exception {
 			Connection con = null;
 			PreparedStatement pstmt = null;
 			
@@ -283,6 +284,6 @@ public class ProgramDAO {
 		            recommendList.add(list.get(rnd));
 		        }
 		    }
-			return list;
+			return recommendList;
 		}
 }
