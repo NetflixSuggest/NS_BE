@@ -1,4 +1,9 @@
-package main.java.model.user;
+package main.java.service.user;
+
+import main.java.model.user.*;
+import main.java.model.user.dto.UserDTO;
+import main.java.model.user.dto.UserLoginDTO;
+import main.java.model.user.dto.UserResponseDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

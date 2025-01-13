@@ -1,8 +1,8 @@
 package main.java.controller.admin;
 
-import main.java.model.user.UserResponseDTO;
+import main.java.model.user.dto.UserResponseDTO;
 import main.java.model.user.UserRole;
-import main.java.model.user.UserService;
+import main.java.service.user.UserService;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

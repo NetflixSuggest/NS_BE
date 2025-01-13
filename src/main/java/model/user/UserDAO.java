@@ -6,7 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import main.java.model.user.dto.UserDTO;
+import main.java.model.user.dto.UserLoginDTO;
+import main.java.model.user.dto.UserResponseDTO;
 import main.java.model.util.DBUtil;
+import main.java.service.user.UserService;
 
 public class UserDAO {
 

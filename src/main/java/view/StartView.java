@@ -1,20 +1,13 @@
 package main.java.view;
 
-import java.io.FileInputStream;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Properties;
 import java.util.Scanner;
 
 import main.java.controller.admin.AdminController;
 import main.java.controller.user.UserController;
-import main.java.model.user.UserDTO;
-import main.java.model.user.UserLoginDTO;
-import main.java.model.user.UserResponseDTO;
-import main.java.model.user.UserService;
-import main.java.model.util.DBUtil;
+import main.java.model.user.dto.UserResponseDTO;
+import main.java.service.user.UserService;
 
 public class StartView {
 
@@ -25,7 +18,7 @@ public class StartView {
 			System.out.println("\n메뉴를 선택하세요");
 			System.out.println("1. 로그인");
 			System.out.println("2. 회원가입");
-			System.out.println("4. 종료");
+			System.out.println("3. 종료");
 			int num = scanner.nextInt();
 			scanner.nextLine();
 			switch (num) {
@@ -36,8 +29,6 @@ public class StartView {
 				signUpView();
 				break;
 			case 3:
-				break;
-			case 4:
 				return;
 			}
 		}
@@ -102,17 +93,22 @@ public class StartView {
 			System.out.println("3. 나라 검색");
 			System.out.println("4. 출시연도 검색");
 			System.out.println("5. 장르 검색");
-			System.out.println("6. 로그아웃");
+			System.out.println("6. 영화 목록 조회");
+			System.out.println("7. 추천");
+			System.out.println("8. 로그아웃");
 			if (role.equals("ADMIN")) {
 				System.out.println("---------어드민 기능---------");
-				System.out.println("7. 전체 유저 조회");
-				System.out.println("8. 유저 계정 삭제");
+				System.out.println("9. 프로그램 추가");
+				System.out.println("10. 프로그램 수정");
+				System.out.println("11. 프로그램 삭제");
+				System.out.println("12. 전체 유저 조회");
+				System.out.println("13. 유저 계정 삭제");
 			}
 
 			int num = scanner.nextInt();
 			scanner.nextLine();
-			if (num > 6 && !role.equals("ADMIN")) {
-				System.out.println("1~6 중 하나를 입력하세요");
+			if (num > 7 && !role.equals("ADMIN")) {
+				System.out.println("1~7 중 하나를 입력하세요");
 			} else {
 				switch (num) {
 				case 1:
@@ -126,14 +122,22 @@ public class StartView {
 				case 5:
 					break;
 				case 6:
-					return;
+					break;
 				case 7:
-					printUsers();
 					break;
 				case 8:
-					deleteUser();
-					break;
+					return;
 				case 9:
+					break;
+				case 10:
+					break;
+				case 11:
+					break;
+				case 12:
+					printUsers();
+					break;
+				case 13:
+					deleteUser();
 					break;
 				}
 			}

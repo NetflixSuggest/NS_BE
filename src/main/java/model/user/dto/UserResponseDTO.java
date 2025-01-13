@@ -1,9 +1,10 @@
-package main.java.model.user;
+package main.java.model.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import main.java.model.user.UserRole;
 
 @AllArgsConstructor
 @NoArgsConstructor

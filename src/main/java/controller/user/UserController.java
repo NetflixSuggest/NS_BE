@@ -1,9 +1,9 @@
 package main.java.controller.user;
 
-import main.java.model.user.UserDTO;
-import main.java.model.user.UserLoginDTO;
-import main.java.model.user.UserResponseDTO;
-import main.java.model.user.UserService;
+import main.java.model.user.dto.UserDTO;
+import main.java.model.user.dto.UserLoginDTO;
+import main.java.model.user.dto.UserResponseDTO;
+import main.java.service.user.UserService;
 
 import java.sql.SQLException;
 
