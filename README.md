@@ -1,14 +1,11 @@
 # Netflix Suggestions
 
----
-
 ## 개발팀원
 
 | <img src="https://avatars.githubusercontent.com/u/114637614?v=4" width=200px alt="오현두"> | <img src="https://avatars.githubusercontent.com/u/73707598?v=4" width=200px alt="유호준"> | <img src="https://avatars.githubusercontent.com/u/123963462?v=4" width=200px alt="어태규"> | <img src="https://avatars.githubusercontent.com/u/129478826?v=4" width=200px alt="윤원호"> |
 | --- | --- | --- | --- |
 | [오현두](https://github.com/HyunDooBoo) | [유호준](https://github.com/wns5120) | [어태규](https://github.com/EOTAEGYU) | [윤원호](https://github.com/dnjsgh1204) |
 
----
 
 ## 🚥목차
 
@@ -42,7 +39,8 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
 
 프로젝트는 **MVC 패턴**을 기반으로 설계
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/7563ccb0-5f23-4c8a-9976-61d8a4233500/image.png)
+![image](https://github.com/user-attachments/assets/aa478334-1e01-469c-96b4-7dc03b93ae2f)
+
 
 ### 구성 요소
 
@@ -58,7 +56,9 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
 
 ## 2.2 ERD 설계
 
-![ERD 설계](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/fa1e10f8-2e1e-4640-9956-dfdd84b143e8/image.png)
+![image](https://github.com/user-attachments/assets/7f722515-25ee-49b6-85ed-ff494a6cbcae)
+
+
 
 ERD 설계
 
@@ -104,7 +104,8 @@ ERD 설계
 
 ### 사용자 기능
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/3cd24b50-009d-474a-a995-fb1c99e5b9de/image.png)
+![image](https://github.com/user-attachments/assets/31d5517a-c0e1-4c07-9330-9155c484c80d)
+
 
 - **검색 기능**
     - **제목별 검색**: 원하는 콘텐츠의 제목으로 검색 가능
@@ -123,7 +124,8 @@ ERD 설계
 
 ### 관리자 기능
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/ad8e2c34-a648-4bcf-9b42-be07b215601c/image.png)
+![image](https://github.com/user-attachments/assets/6411d5b8-c456-4e9d-8040-ba51d19fd1f8)
+
 
 - **영화 관리**
     - **추가**: 새로운 영화 데이터를 추가
@@ -163,31 +165,38 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 ### **회원가입**
 
-![회원가입.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/e2c50acc-5b4a-4110-b52e-a9383edafb59/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png)
+![회원가입](https://github.com/user-attachments/assets/021a7ca6-2e3d-4311-870d-8fb9be2ed14f)
+
 
 ### 로그인
 
-![로그인.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/7fa61670-3e9e-4bb6-ab5e-0058fb65d6d8/%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
+![로그인](https://github.com/user-attachments/assets/5d677e57-afa2-427e-aff4-727f1a59c854)
+
 
 ### 제목 검색
 
-![제목 검색.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/fac2baa2-ed9f-4be1-aee2-8cb42eadee52/%EC%A0%9C%EB%AA%A9_%EA%B2%80%EC%83%89.png)
+![제목 검색](https://github.com/user-attachments/assets/cd8f52a7-bb54-450e-9f09-1bbf9e13fb5c)
+
 
 ### 장르별 랜덤 추천
 
-![액션 추천.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/d1a099fe-d6b1-4a4c-8c52-51d50ba2da9d/%EC%95%A1%EC%85%98_%EC%B6%94%EC%B2%9C.png)
+![액션 추천](https://github.com/user-attachments/assets/52bf1ea2-ceb8-4764-8e2f-b1c8391f56c3)
+
 
 ## 4.2 관리자 테스트
 
 ### 관리자 기능
 
-![관리자 기능.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/12171dce-457d-4a76-8c4e-9b0969346943/%EA%B4%80%EB%A6%AC%EC%9E%90_%EA%B8%B0%EB%8A%A5.png)
+![관리자 기능](https://github.com/user-attachments/assets/edfa15bd-84af-49e8-90ea-997374705b92)
+
 
 ### 영화 추가
 
-![영화 추가.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/fd1e269a-d109-44dc-ab00-119167b58ac1/%EC%98%81%ED%99%94_%EC%B6%94%EA%B0%80.png)
+![영화 추가](https://github.com/user-attachments/assets/b09c321a-ed1c-4979-a3e1-053d83ee1c11)
 
-![db에 영화 추가.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/250f745a-f4f8-439f-bcfd-a85ec29cf16e/06aea3bb-cb0f-43bb-8c86-5acd0d67ace2/db%EC%97%90_%EC%98%81%ED%99%94_%EC%B6%94%EA%B0%80.png)
+
+![db에 영화 추가](https://github.com/user-attachments/assets/388861e9-d2e4-4983-b4d2-f3077a048b9a)
+
 
 ## 4.3 트러블슈팅
 
