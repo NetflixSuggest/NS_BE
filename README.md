@@ -8,7 +8,6 @@
 |                          [오현두](https://github.com/HyunDooBoo)                           |                           [유호준](https://github.com/wns5120)                            |                           [어태규](https://github.com/EOTAEGYU)                            |                          [윤원호](https://github.com/dnjsgh1204)                           |
 |                                           BE                                            |                                           BE                                           |                                           BE                                            |                                           BE                                            |
 
-![KakaoTalk_20250114_093348869]()
 
 ## 🚥목차
 
