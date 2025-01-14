@@ -65,7 +65,10 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
 
 ![image](https://github.com/user-attachments/assets/7f722515-25ee-49b6-85ed-ff494a6cbcae)
 
-
+- user 테이블
+    - column: id, password, role
+- program 테이블
+    - column: show_id, type, title, director, country_translated, release_year, duration, listed_in_translated, description
 
 
 ## 2.3 주요 흐름
@@ -141,9 +144,9 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
     - 전체 유저 조회
     - 유저 계정 삭제
 
-## 3.3 🏃‍♂활용 데이터
+## 3.3 🏃‍♂활용 데이터 및 데이터 전처리
 
-### 1. [Kaggle] Neflix Movie and Tv shows use data
+### 1. [Kaggle] Neflix Movie and Tv shows use data 사용
 
 https://www.kaggle.com/datasets/shivamb/netflix-shows
 
@@ -151,14 +154,62 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 - `show_id` , `type` , `title`, `director`, `country`, `release_year`, `duration` , `listed_in`, `description`
 
-### 3. duration 컬럼 숫자화 및 특정 컬럼 한국어 번역
+### 3. 데이터 전처리
 
-- `duration` 컬럼에서 "min" 문자열을 제거하고, 정수형(int) 데이터로 변환
-- `country`(제작 국가)와 `listed_in`(장르) `duration`(줄거리) 컬럼의 값을 한국어로 번역
-- 번역은 Python의 `googletrans` 라이브러리를 사용하여 수행
+#### 3-1. 환경 셋팅
+```
+!pip install --upgrade pip
+!pip install googletrans==3.1.0a0
+
+# 데이터 로드
+data = pd.read_csv('/content/netflix.csv')
+print(data)
+
+# 번역기 초기화
+translator = Translator()
+
+# 번역 함수
+def translate_text(text, src='en', dest='ko'):
+    try:
+        return translator.translate(text, src=src, dest=dest).text if pd.notna(text) else text
+    except:
+        return text  # 번역 실패 시 원본 반환
+```
+
+#### 3-2. 사용할 데이터 컬럼만 선택
+```
+selected_columns = ['show_id', 'type', 'title', 'director', 'country', 'release_year', 'duration', 'listed_in', 'description']
+data = data[selected_columns]
+```
+
+#### 3-3. `duration` 컬럼에서 "min" 문자열을 제거하고, 정수형(int) 데이터로 변환
+
+```
+data['duration'] = data['duration'].str.replace(' min', '', regex=False).str.strip()
+```
+
+#### 3-4 `country`(제작 국가)와 `listed_in`(장르) `description`(줄거리) 컬럼의 값을 한국어로 번역
+```
+data['country'] = data['country'].apply(lambda x: translate_text(x))
+data['listed'] = data['listed_in'].apply(lambda x: translate_text(x))
+data['description'] = data['description'].apply(lambda x: translate_text(x))
+```
+
+#### 3-5 데이터 결과 저장
+```
+data.to_csv('netflix.csv', index=False)
+```
 
 ### 4. 데이터 예시
+#### 이전 데이터
 
+
+| show_id  | type  | title                                   | director                 | cast                                              | country                                  | date_added        | release_year | rating | duration | listed_in                          | description                                       |
+| -------- | ----- | --------------------------------------- | ------------------------ | ------------------------------------------------- | ---------------------------------------- | ----------------- | ------------ | ------ | -------- | ---------------------------------- | ------------------------------------------------- |
+| 81145628 | Movie | Norm of the North: King Sized Adventure | Richard Finn, Tim Maltby | Alan Marriott, Andrew Toth, Brian Dobson, Cole... | United States, India, South Korea, China | September 9, 2019 | 2019         | TV-PG  | 90 min   | Children & Family Movies, Comedies | Before planning an awesome wedding for his gra... |
+
+
+#### 전처리 후 데이터
 | show_id | type | title | director | country_translated | release_year | duration | listed_in_translated | description |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12345 | Movie | 서울의 봄 | 김성수 | 대한민국 | 2023 | 120 | 드라마, 역사 | 1980년대 서울의 민주화 운동을 배경으로.. |
