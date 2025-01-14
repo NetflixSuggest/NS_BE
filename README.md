@@ -155,8 +155,11 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 - `show_id` , `type` , `title`, `director`, `country`, `release_year`, `duration` , `listed_in`, `description`
 
 ### 3. 데이터 전처리
+- 케글에서 가져온 넷플릭스 데이터는 영어로 되어 있어 한국 사용자를 고려하여 한국어로 변경
+- google colab을 사용하여 python으로 전처리
+- googletrans 패키지를 사용하여 한국어로 번역
 
-#### 3-1. 환경 셋팅
+#### 3-1. 필요한 패키지 다운 및 import
 ```
 !pip install --upgrade pip
 !pip install googletrans==3.1.0a0
