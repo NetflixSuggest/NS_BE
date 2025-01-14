@@ -11,12 +11,17 @@
 
 1. 프로젝트 소개
 2. 프로젝트 설계
+    1. 시스템 아키텍처
+    2. 데이터베이스 설계
+    3. 주요 흐름
 3. 프로젝트 개발
     1. 디렉터리 구조
-    2. 데이터 활용
-    3. 기능 개발
+    2. 기능
+    3. 활용 데이터
 4. 테스트
-    1. 트러블슈팅
+    1. 사용자 테스트
+    2. 관리자 테스트
+    3. 트러블 슈팅
 5. 고찰
 
 # 1. ⚒️프로젝트 소개
@@ -54,13 +59,12 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
     - View와 Model 간의 중간 다리 역할
     - 사용자의 요청을 처리하고 Model에서 데이터를 가져와 View에 전달
 
-## 2.2 ERD 설계
+## 2.2 데이터베이스 설계
 
 ![image](https://github.com/user-attachments/assets/7f722515-25ee-49b6-85ed-ff494a6cbcae)
 
 
 
-ERD 설계
 
 ## 2.3 주요 흐름
 
@@ -135,7 +139,7 @@ ERD 설계
     - 전체 유저 조회
     - 유저 계정 삭제
 
-## 3.3 🏃‍♂️데이터 활용
+## 3.3 🏃‍♂활용 데이터
 
 ### 1. [Kaggle] Neflix Movie and Tv shows use data
 
@@ -242,6 +246,6 @@ con.prepareStatement("select * from netflix_movies where listed_in like '%' ? '%
 
 # 5. 📜고찰
 
-- 코드 리팩토링
+- 코드 리팩토링 및 유지보수
 - 기능 / 뷰 보완
 - 드라마 및 최신 정보 검색 기능 추가
