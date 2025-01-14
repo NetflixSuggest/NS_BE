@@ -4,10 +4,11 @@
 
 |                                         Backend                                         |                                        Backend                                         |                                         Backend                                         |                                        Backend                                        |
 |:---------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
-| <img src="https://avatars.githubusercontent.com/u/114637614?v=4" width=200px alt="오현두"> | <img src="https://avatars.githubusercontent.com/u/73707598?v=4" width=200px alt="유호준"> | <img src="https://avatars.githubusercontent.com/u/123963462?v=4" width=200px alt="어태규"> | <img src="https://avatars.githubusercontent.com/u/129478826?v=4" width=200px alt="윤원호"> |
+| <img src="https://github.com/user-attachments/assets/20d2f5f4-5e8b-4cc0-a1e5-effbd7ad1650" width=200px alt="오현두"> | <img src="https://avatars.githubusercontent.com/u/73707598?v=4" width=200px alt="유호준"> | <img src="https://avatars.githubusercontent.com/u/123963462?v=4" width=200px alt="어태규"> | <img src="https://avatars.githubusercontent.com/u/129478826?v=4" width=200px alt="윤원호"> |
 |                          [오현두](https://github.com/HyunDooBoo)                           |                           [유호준](https://github.com/wns5120)                            |                           [어태규](https://github.com/EOTAEGYU)                            |                          [윤원호](https://github.com/dnjsgh1204)                           |
 |                                           BE                                            |                                           BE                                           |                                           BE                                            |                                           BE                                            |
 
+![KakaoTalk_20250114_093348869]()
 
 ## 🚥목차
 
