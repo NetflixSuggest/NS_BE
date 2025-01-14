@@ -154,7 +154,7 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 ### 3. duration 컬럼 숫자화 및 특정 컬럼 한국어 번역
 
 - `duration` 컬럼에서 "min" 문자열을 제거하고, 정수형(int) 데이터로 변환
-- `country`(제작 국가)와 `listed_in`(장르) 컬럼의 값을 한국어로 번역
+- `country`(제작 국가)와 `listed_in`(장르) `duration`(줄거리) 컬럼의 값을 한국어로 번역
 - 번역은 Python의 `googletrans` 라이브러리를 사용하여 수행
 
 ### 4. 데이터 예시
