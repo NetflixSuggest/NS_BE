@@ -106,7 +106,7 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
 
 ## 3.2 ✅ 기능
 
-### 사용자 기능
+### 🧑‍💻사용자 기능
 
 ![image](https://github.com/user-attachments/assets/31d5517a-c0e1-4c07-9330-9155c484c80d)
 
@@ -126,7 +126,7 @@ Netflix Movie Data를 활용하여 JDBC(Java Database Connectivity)를 기반으
 
 ---
 
-### 관리자 기능
+### 🧑‍💼관리자 기능
 
 ![image](https://github.com/user-attachments/assets/6411d5b8-c456-4e9d-8040-ba51d19fd1f8)
 
