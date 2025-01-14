@@ -210,7 +210,7 @@ data.to_csv('netflix.csv', index=False)
 
 
 #### 전처리 후 데이터
-| show_id | type | title | director | country_translated | release_year | duration | listed_in_translated | description |
+| show_id | type | title | director | country | release_year | duration | listed | description |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12345 | Movie | 서울의 봄 | 김성수 | 대한민국 | 2023 | 120 | 드라마, 역사 | 1980년대 서울의 민주화 운동을 배경으로.. |
 
